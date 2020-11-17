@@ -8,7 +8,6 @@ window.addEventListener('load', () => {
 
         const quantityOfDivs = columns * rows
 
-        const div = document.createElement('div')
         const rectangle = document.getElementById('rectangle')
 
         rectangle.innerHTML = ''
