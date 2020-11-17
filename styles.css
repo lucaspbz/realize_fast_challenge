@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+}
+
+.rectangle {
+    height: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    background-color: #2196F3;
+}
+
+.rectangle  div {
+    border: 5px solid #fff;
+  
+}
+
+
+
+
+main {
+    width: 100vw; height: 100vh;
+    display: flex;
+    background-color: #cccccc;
+    align-items: center;
+    justify-content: center;
+}
